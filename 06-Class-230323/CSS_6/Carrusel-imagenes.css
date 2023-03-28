@@ -1,7 +1,7 @@
 div{
-    background-color: aquamarine;
+    background-color: rgb(129, 127, 255);
     border: 1px solid;
-    width: 600px;
+    width: 598px;
     /*Si habilitamos display: inline se comporta como elemento en línea */
     /*display: inline; */
 }
@@ -28,4 +28,11 @@ section img:hover {
     width: 300px;
     opacity: 1;
     filter: constrast(120%);
+}
+h1.title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 2.5em;
+    color: #FFEA00;
+    display: inline;
 }
