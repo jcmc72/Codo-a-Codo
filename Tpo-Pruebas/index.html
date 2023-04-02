@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Título de aplicación -->
     <title>Turismo en Argentina</title>
-    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <!-- Link al archivo CSS -->
     <link rel="stylesheet" type="text/css" href="icons/icomoon.css">
     <link rel="stylesheet" href="css/estilos.css">
     <!--https://patagonia-chile.com/-->
@@ -14,75 +15,52 @@
 
 <body>
 
-  <div id="bg">
-  </div>
+  <!-- Contenedor menus centrados -->
+  <div class="topnav">
 
-    <!-- Contenedor Header -->
-    <header>
-    <nav>
-      <div id="tabs">
-        <ul>
-          <li id="tabHeader_1">Inicio</li>
-          <li id="tabHeader_2">Guía Turística</li>
-          <li id="tabHeader_3">Contacto</li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <!-- Fin Contenedor Header -->
-
-
-  <div id="main-content">
-      <div id="big-title">
-          <h1>Turismo</h1>
-      </div>
-
-      <div id="desc">
-          <p>Guía de turismo en Provincia de Buenos Aires</p>
-      </div>
-      
-      <div class="btn">
-          Iniciar turismo guiado
-      </div>
-  </div>
-
-  <!-- Contenedor Main -->
-  <!-- Fin Contenedor Main -->
-
-  <main>
-    <!--
-    -->
-    <section id="tabHeader_1">
-      <h2>Inicio</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dictum justo sed sapien tempus, vel facilisis enim cursus.</p>
-    </section>
-
-    <section id="tabHeader_2">
-      <h2>Guía Turística</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dictum justo sed sapien tempus, vel facilisis enim cursus.</p>
-    </section>
-
-    <section id="tabHeader_3">
-      <h2>Contacto</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dictum justo sed sapien tempus, vel facilisis enim cursus.</p>
-    </section>
-
-    <div class="tab-content" id="tabHeader_1">
-      <h2>Inicio</h2>
-      <p>Pellentesque habitant morbi tristique senectus...</p>
-    </div>
-
-    <div class="tabpage" id="tabHeader_2">
-      <h2>Guía Turística</h2>
-      <p>Pellentesque habitant morbi tristique senectus...</p>
-    </div>
-
-    <div class="tabpage" id="tabHeader_3">
-      <h2>Contacto</h2>
-      <p>Pellentesque habitant morbi tristique senectus...</p>
+    <!-- Centered link -->
+    <div class="topnav-centered">
+      <a href="#home" class="active">Inicio</a>
     </div>
     
-  </main>
+    <!-- Left-aligned links (default) -->
+    <a href="#news">Lugares</a>
+    <a href="#contact">Contacto</a>
+    <a href="#about">Nosotros</a>
+    
+    <!-- Right-aligned links -->
+    <div class="topnav-right">
+      <!--<a href="#search">Buscar</a>-->
+      <input type="text" placeholder="Buscar...">
+    </div>
+    
+  </div>
+
+  <div style="padding-left:16px">
+    <h2>Responsive Top Navigation with Centered and Right-Aligned Links</h2>
+    <p>Resize the browser window to see the responsive effect.</p>
+  </div>
+  <!-- Fin Contenedor menus centrados -->
+
+  <div style="padding:15px 15px 2500px;font-size:30px">
+    <p><b>This example demonstrates how to slide down a navbar when the user starts to scroll the page.</b></p>
+    <p>Scroll down this frame to see the effect!</p>
+    <p>Scroll to the top to hide the navbar.</p>
+    <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+  <!--<script>
+    // When the user scrolls down 20px from the top of the document, slide down the navbar
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementsByClassName("topnav").style.top = "0";
+      } else {
+        document.getElementsByClassName("topnav").style.top = "-50px";
+      }
+    }
+    </script>-->
 
   <!-- Contenedor Footer -->
   <footer class="footer">
@@ -102,6 +80,8 @@
       <img src="icons/twitter.png" alt="t" height="36" width="36">
       <img src="icons/linkedin.png" alt="l" height="36" width="36">
     </div>
+
+    <a class="top" href="#">Ir Arriba ↑</a>
         
 </body>
 
