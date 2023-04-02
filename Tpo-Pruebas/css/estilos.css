@@ -238,14 +238,16 @@ body{
 }
 
 .boxTextFooter {
-  display: flex;
-  justify-content: center;
+  display: inline;
+  /**justify-content: center;**/
+  text-align: center;
   align-items: center;
 }
 
 .boxTextFooter p {
   margin-bottom: 0;
   color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .boxTextFooter p a {
