@@ -233,7 +233,7 @@ body{
 /*  ESTILOS FOOTER*/
 
 .footer {
-  background: white;
+  background: black;
   padding: 25px;
 }
 
@@ -245,11 +245,11 @@ body{
 
 .boxTextFooter p {
   margin-bottom: 0;
-  color: #666666;
+  color: red;
 }
 
 .boxTextFooter p a {
-  color: #666666;
+  color: purple;
 }
 
 .boxTextFooter p a:hover {
