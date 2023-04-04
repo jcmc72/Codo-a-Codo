@@ -4,6 +4,9 @@
     flex-wrap: wrap;
     text-align: center;
     padding: 10px;
+    justify-content: space-around;
+    background-color: lightblue;
+    border: 2px solid blue;
 }
 .header{background: lightblue;}
 .articulo{background:lightseagreen}
