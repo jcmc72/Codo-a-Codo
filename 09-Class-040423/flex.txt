@@ -1,0 +1,40 @@
+<body>
+    <h1>Práctica de Flexbox</h1>
+    <h2>Propiedades del contenedor padre</h2>
+    <br>
+    <div class="padre">
+        <div class="hijo">A</div>
+        <div class="hijo">B</div>
+        <div class="hijo">C</div>
+        <!-- <div class="hijo">+</div> -->
+        <!-- <div class="hijo">+</div> -->
+        <!-- <div class="hijo">+</div> -->
+        <!-- <div class="hijo">+</div> -->
+        <!-- <div class="hijo">+</div> -->
+    </div>
+</body>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+.padre{
+    background-color: lightblue;
+    border: 2px solid blue;
+    width: 80%;
+    height: 500px;
+    margin: 50px auto;
+}
+.hijo{
+    background-color: navy;
+    border: 2px dashed white;
+    width: 200px;
+    height: 100px;
+    color: white;
+    margin: 30px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}
